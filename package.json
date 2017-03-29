@@ -1,0 +1,49 @@
+{
+  "name": "StupaWahlTool2017",
+  "version": "1.3.0",
+  "description": "A tool for the Stupa Wahl 2017.",
+  "main": "src/server/app.js",
+  "scripts": {
+    "build": "gulp build",
+	"inline": "gulp inline",
+    "test": "gulp test",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nerdakademie/stupa-wahltool.git"
+  },
+  "homepage": "https://github.com/nerdakademie/stupa-wahltool/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/nerdakademie/stupa-wahltool/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-less": "3.3.0",
+    "gulp-cssmin": "0.1.7",
+    "gulp-plumber": "1.1.0",
+    "gulp-rename": "1.2.2",
+	"gulp-inline-css": "3.1.0"
+  },
+  "author": {
+    "name": "Nerdakademie",
+    "email": "nerdakademie@nordakademie.de",
+    "url": "https://github.com/nerdakademie"
+  },
+  "contributors": [
+    {
+      "name": "Michel Wohlert",
+      "url": "https://github.com/mwohlert"
+    },
+    {
+      "name": "Malte Schlünz",
+      "url": "https://github.com/malteschluenz"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bin": {
+    "stupa-wahltool": "bin/server.js"
+  }
+}
